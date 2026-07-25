@@ -7,7 +7,6 @@ import data from "@/data.json";
 const iconFor = (title: string) => {
   if (title.includes("Maxscriber")) return <FileCode2 className="size-5" />;
   if (title.includes("Methylation")) return <Dna className="size-5" />;
-  if (title.includes("ScrapeMate")) return <Cloud className="size-5" />;
   return <TerminalSquare className="size-5" />;
 };
 
